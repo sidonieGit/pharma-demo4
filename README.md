@@ -35,7 +35,7 @@ Ce dépôt contient la quatrième itération du projet "Pharma". Cette version f
 2.  **Cloner le dépôt :**
 
     ```bash
-    git clone [https://github.com/votre_utilisateur/Pharma4.git](https://github.com/votre_utilisateur/Pharma4.git)
+    git clone https://github.com/sidonieGit/pharma-Demo4.git
     cd Pharma4
     ```
 
@@ -53,9 +53,7 @@ Ce dépôt contient la quatrième itération du projet "Pharma". Cette version f
 
 ## Prochaines Étapes Possibles
 
-- **Implémentation d'une persistance réelle** : Remplacer le DAO mocké par une connexion à une base de données (via JDBC ou JPA/Hibernate).
-- **Utilisation d'annotations de composant Spring** (`@Component`, `@Service`, `@Repository`) pour la détection automatique des beans.
-- Mise en place de tests unitaires et d'intégration robustes avec Spring Test.
+- Le `MedicamentDao` contient le **squelette du code JDBC** pour la gestion des connexions, statements et result sets. Cependant, les méthodes de persistance (CRUD) **retournent toujours des données mockées** ou affichent des messages de simulation.
 
 ---
 
